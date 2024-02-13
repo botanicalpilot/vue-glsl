@@ -1,6 +1,8 @@
 <template>
   <canvas ref="canvas">
-    <slot/>
+    <div>
+      <slot/>
+    </div>
   </canvas>
 </template>
 <script lang="ts">
